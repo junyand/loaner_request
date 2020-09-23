@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Set the following values on the form:
+Requested for = Abel Tuter
+and End date = 2020-09-24 00:00:00
+and Start date = 2020-09-23 00:00:00</description>
+        <display_name>Set Field Values</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 23:43:56</sys_created_on>
+        <sys_id>ab6e1a3b151f50107f443a72a6134383</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set Field Values</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">aa20f3c3151b10107f443a72a61343c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">aa20f3c3151b10107f443a72a61343c6</sys_scope>
+        <sys_update_name>sys_atf_step_ab6e1a3b151f50107f443a72a6134383</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 23:51:37</sys_updated_on>
+        <table>x_cdltd_loaner_req_loaner_request</table>
+        <test display_value="My First Loaner Request ATF Test">6cdc9ef7151f50107f443a72a6134371</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=ab6e1a3b151f50107f443a72a6134383"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab6e1a3b151f50107f443a72a6134383</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 23:43:56</sys_created_on>
+        <sys_id>08ae5a3b151f50107f443a72a61343b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 23:51:37</sys_updated_on>
+        <value>requested_for=62826bf03710200044e0bfc8bcbe5df1^end_date=2020-09-24 00:00:00^start_date=2020-09-23 00:00:00^EQ</value>
+        <variable display_value="">b3dba2465320220002c6435723dc34f0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab6e1a3b151f50107f443a72a6134383</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 23:43:56</sys_created_on>
+        <sys_id>40ae5a3b151f50107f443a72a61343b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 23:43:56</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="">946f3c1a0f23330072e6452bc4767eda</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>ab6e1a3b151f50107f443a72a6134383</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-23 23:43:56</sys_created_on>
+        <sys_id>44ae5a3b151f50107f443a72a61343b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-23 23:43:56</sys_updated_on>
+        <value>x_cdltd_loaner_req_loaner_request</value>
+        <variable display_value="">424ca6465320220002c6435723dc34b5</variable>
+    </sys_variable_value>
+</record_update>
