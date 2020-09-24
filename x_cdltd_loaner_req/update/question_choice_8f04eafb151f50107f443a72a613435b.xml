@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>2</order>
+        <question display_value="What would you like to reserve?">fa04eafb151f50107f443a72a613434f</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 00:07:37</sys_created_on>
+        <sys_id>8f04eafb151f50107f443a72a613435b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Projector</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">aa20f3c3151b10107f443a72a61343c6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">aa20f3c3151b10107f443a72a61343c6</sys_scope>
+        <sys_update_name>question_choice_8f04eafb151f50107f443a72a613435b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 00:07:37</sys_updated_on>
+        <text>Projector</text>
+        <value>cmdb_ci_projector</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8f04eafb151f50107f443a72a613435b"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>8f04eafb151f50107f443a72a613435b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 00:07:37</sys_created_on>
+        <sys_id>0304eafb151f50107f443a72a613435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 00:07:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>8f04eafb151f50107f443a72a613435b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-24 00:07:37</sys_created_on>
+        <sys_id>c704eafb151f50107f443a72a613435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-24 00:07:37</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
